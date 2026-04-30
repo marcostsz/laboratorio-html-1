@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+.recipe {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.recipe__header {
+    text-align: center;
+    color: rgb(12, 170, 19);
+}
+
+.recipe__title {
+    font-size: 2.5rem;
+}
+
+.recipe__subtitle {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    justify-content: center;
+}
+
+.recipe__subtitle--final {
+    color: black;
+}
+
+.recipe__section {
+    margin-bottom: 30px;
+}
+
+
+.recipe__section--highlight {
+    background-color: #fffaf0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.recipe__image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.recipe__image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.recipe__image--small {
+    width: 200px;
+}
+
+.recipe__footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px solid #eee;
+}
+
+.recipe__credits {
+    font-style: italic;
+    color: #666;
+}

@@ -1,114 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receta Chilaquiles</title>
+<body class="recipe">
+
+    <header class="recipe__header">
+        <h1 class="recipe__title">Receta de Chilaquiles Rojos</h1>
+    </header>
+    <hr class="recipe__divider">
     <link rel="stylesheet" href="styles.css">
-</head>
 
-<body>
-    <div>
-        <center>
-            <h1>Receta de Chilaquiles Rojos</h1>
-        </center>
-    </div>
-    <hr>
-    <!--*Ingredientes-->
-    <h2>Ingredientes: </h2>
-    <ul>
-        <li>Tortilla de maíz fría: (De uno o dos días antes). La tortilla fresca absorbe demasiado aceite y se deshace;
-            la
-            vieja es la que logra el crujido perfecto </li>
-        <li>Jitomate (Tomate rojo): Bien maduro para que la salsa sea dulce y espesa.</li>
-        <li>Chile</li>
-        <li>Crema de rancho: Espesa y ácida para cortar el picor.</li>
-        <li>Queso Cotija: Su salinidad y textura granulada son el cierre perfecto.</li>
-    </ul>
-    <div>
-        <center>
-            <img src="chilaquiles_rojos.jpeg" alt="Chilaquiles Rojos" width="300" height="300">
-            <br>
-        </center>
-    </div>
 
-    <h2>Nota:</h2>
-    <h3>"Cuales tortillas debo tener?"</h3>
-    <p>Si usas totopos de bolsa de supermercado, no te serviran. Necesitas tortillas cortadas en triángulos y dejadas al
-        aire
-        para que pierdan humedad. Asi como esta en la imagen</p>
-    <br>
-    <dev>
-        <center>
+    <section class="recipe__section">
+        <h2 class="recipe__subtitle">Ingredientes:</h2>
+        <ul class="recipe__list">
+            <li class="recipe__item"><strong>Tortilla de maíz fría:</strong> La vieja es la que logra el crujido
+                perfecto.</li>
+            <li class="recipe__item"><strong>Jitomate:</strong> Bien maduro para que la salsa sea espesa.</li>
+            <li class="recipe__item"><strong>Chile:</strong> Al gusto.</li>
+            <li class="recipe__item"><strong>Crema de rancho:</strong> Espesa y ácida.</li>
+            <li class="recipe__item"><strong>Queso Cotija:</strong> El cierre perfecto.</li>
+        </ul>
+        <div class="recipe__image-container">
+            <img class="recipe__image" src="chilaquiles_rojos.jpeg" alt="Chilaquiles Rojos">
+        </div>
+    </section>
+    <hr class="recipe__divider">
 
-            <img src="tortilla_cortada.webp" alt="Tortilla" width="200" height="200">
-            <hr>
-            <br>
-        </center>
-    </dev>
-    <!--*Preparacion-->
-    <div>
-        <center>
-            <h2>Preparacion:</h2>
-        </center>
-    </div>
-    <ol>
-        <li>El Dorado (El mayor punto ciego):
-            Fríe los triángulos de tortilla en aceite bien caliente hasta que cambien de color a un dorado oscuro. El
-            error
-            común es dejarlos pálidos; si no están bien fritos, al contacto con la salsa se volverán una masa informe en
-            segundos. Escurre bien el exceso de grasa.
-        </li>
-        <br>
-        <li>
-            La Salsa de Verdad:
-            Tatemar (quemar ligeramente en el comal) los jitomates, un trozo de cebolla y los chiles de árbol. Licúa con
-            muy
-            poca agua y sal. No la cueles. La textura de la piel tatemada le da el carácter ahumado.
-        </li>
-        <br>
-        <li>
-            El Sazón:
-            Fríe la salsa en una olla con una cucharadita de aceite. Déjala espesar hasta que cambie a un rojo intenso.
-            Si
-            la salsa está muy líquida, tus chilaquiles serán una "sopa de tortilla" mal hecha.
-        </li>
-        <br>
-        <li>
-            El "Encuentro":
-            Aquí es donde la mayoría falla. No cocines los totopos dentro de la salsa por diez minutos. Pon los totopos
-            en
-            un plato y vierte la salsa hirviendo sobre ellos, o dales una vuelta rápida en la olla (30 segundos) y sirve
-            de
-            inmediato.
-        </li>
-        <br>
-        <li>
-            El Coronamiento:
-            Cubre con una lluvia de queso Cotija, un espiral de crema y unas rodajas de cebolla morada.
-        </li>
-    </ol>
+    <!-- Sección Notas -->
+    <section class="recipe__section recipe__section--highlight">
+        <h2 class="recipe__subtitle">Nota importante:</h2>
+        <div class="recipe__note">
+            <h3 class="recipe__note-title">¿Totopos o tortillas cortadas?</h3>
+            <p class="recipe__text">Necesitas tortillas cortadas en triángulos y dejadas al aire.</p>
+        </div>
+        <div class="recipe__image-container">
+            <img class="recipe__image recipe__image--small" src="tortilla_cortada.webp" alt="Tortilla cortada">
+        </div>
+    </section>
+    <hr class="recipe__divider">
 
-    <br>
-    <!--*Platillo preparado-->
-    <hr>
-    <div>
-        <center>
-            <h2>Listo, tu platillo esta preparado</h2>
-            <img src="chilaquiles_rojos.jpeg" alt="chilaquiles">
-            <p>Nota importante: Tu platillo puede variar dependiendo de los ingredientes, la imagen solo es con fines
-                ilustrativos</p>
-            <h2>Disfruta de tus chilaquiles caseros</h2>
-        </center>
-    </div>
-    <hr>
-    <div>
-        <center>
-            <p>=== Proyecto hecho el 4 de abril de 2026 por Marcos T. S. ===</p>
-        </center>
-    </div>
 
+    <section class="recipe__section">
+        <h2 class="recipe__subtitle">Preparación:</h2>
+        <ol class="recipe__list recipe__list--ordered">
+            <li class="recipe__item"><strong>El Dorado:</strong> Fríe hasta un dorado oscuro.</li>
+            <li class="recipe__item"><strong>La Salsa:</strong> Tatemar jitomates, cebolla y chiles.</li>
+            <li class="recipe__item"><strong>El Sazón:</strong> Fríe la salsa hasta que espese.</li>
+            <li class="recipe__item"><strong>El Encuentro:</strong> Vierte la salsa sobre los totopos al servir.</li>
+            <li class="recipe__item"><strong>El Coronamiento:</strong> Queso, crema y cebolla.</li>
+        </ol>
+    </section>
+
+
+    <footer class="recipe__footer">
+        <h2 class="recipe__subtitle recipe__subtitle--final">¡Disfruta de tus chilaquiles caseros!</h2>
+        <p class="recipe__credits">=== Proyecto hecho el 30 de abril de 2026 por Marcos T. S. ===</p>
+    </footer>
 </body>
 
 </html>
